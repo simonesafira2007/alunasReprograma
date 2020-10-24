@@ -2,7 +2,7 @@
 
 ![Simbolo do Reprograma](./imagens/image1.png)   
 
-## Projeto API Node.js Músicas
+## Projeto API Node.js Alunas Reprograma
 
 Nossa API de alunas do curso Reprograma Back-end Porto 2020.2 poderá:  
 
