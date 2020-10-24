@@ -1,7 +1,8 @@
 const alunas = require("../models/alunas.json")
 const fs = require("fs") 
 
-
+// método GET - rota a ser chamada no Postman 
+// exibe o registro de todas as alunas 
 const getAllStudents = (req, res) => {
     console.log(req.url)
     res.status(200).send(alunas)
@@ -23,7 +24,7 @@ const createStudent = (req, res) => {
     })
 }
 // Criando a rota de DELETE by id
-// método DELETE - rota a ser chamada no Postman:(localhost:3000/alunas/id )
+// método DELETE - rota a ser chamada no Postman:(localhost:3000/alunas/id)
 const deleteStudent = (req, res) => {
     try {
         const studentId = req.params.id
